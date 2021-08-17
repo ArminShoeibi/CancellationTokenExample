@@ -8,9 +8,9 @@ namespace CancellationTokenExample
         /// <summary>
         /// 
         /// In fact, when you cancel code, there are three possibilities: 
-        /// 1) It may respond tothe cancellation request (throwing OperationCanceledException).
-        /// 2) It may finish successfully.
-        /// 3) It may finish with an error unrelated to the cancellation (throwing a different exception).
+        ///   1) It may respond to the cancellation request (throwing OperationCanceledException).
+        ///   2) It may finish successfully.
+        ///   3) It may finish with an error unrelated to the cancellation (throwing a different exception).
         /// 
         /// </summary>
         private CancellationTokenSource _cancellationTokenSource;
